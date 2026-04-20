@@ -1,0 +1,16 @@
+[
+  {"packageName": "python3", "version": "3.9.18", "description": "Interpreter of the Python programming language"},
+  {"packageName": "python3-pip", "version": "21.3.1", "description": "A tool for installing and managing Python packages"},
+  {"packageName": "nodejs", "version": "18.20.2", "description": "JavaScript runtime"},
+  {"packageName": "nginx", "version": "1.20.1", "description": "A high performance web server"},
+  {"packageName": "curl", "version": "7.76.1", "description": "A utility for getting files from remote servers"},
+  {"packageName": "git", "version": "2.43.0", "description": "Fast Version Control System"},
+  {"packageName": "vim-enhanced", "version": "8.2.2637", "description": "A version of the VIM editor with recent enhancements"},
+  {"packageName": "podman", "version": "4.9.4", "description": "Manage Pods, Containers and Container Images"},
+  {"packageName": "postgresql-server", "version": "13.14", "description": "The programs needed to create and run a PostgreSQL server"},
+  {"packageName": "mariadb-server", "version": "10.5.22", "description": "The MariaDB server and related files"},
+  {"packageName": "java-21-openjdk", "version": "21.0.2", "description": "OpenJDK Runtime Environment 21"},
+  {"packageName": "golang", "version": "1.21.9", "description": "The Go Programming Language"},
+  {"packageName": "openssl", "version": "3.0.7", "description": "Utilities from the general purpose cryptography library"},
+  {"packageName": "wget", "version": "1.21.1", "description": "A utility for retrieving files"}
+]

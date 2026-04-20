@@ -1,0 +1,13 @@
+[
+  {"packageName": "python3", "version": "3.10.12", "description": "interactive high-level object-oriented language"},
+  {"packageName": "python3-pip", "version": "22.0.2", "description": "Python package installer"},
+  {"packageName": "nodejs", "version": "18.20.2", "description": "evented I/O for V8 javascript"},
+  {"packageName": "nginx", "version": "1.18.0", "description": "small, powerful, scalable web/proxy server"},
+  {"packageName": "curl", "version": "7.81.0", "description": "command line tool for transferring data with URL syntax"},
+  {"packageName": "git", "version": "2.34.1", "description": "fast, scalable, distributed revision control system"},
+  {"packageName": "podman", "version": "3.4.4", "description": "tool for managing OCI containers"},
+  {"packageName": "postgresql", "version": "14+238", "description": "object-relational SQL database"},
+  {"packageName": "openjdk-17-jdk", "version": "17.0.10", "description": "OpenJDK Development Kit 17"},
+  {"packageName": "golang-go", "version": "1.18.1", "description": "Go programming language compiler"},
+  {"packageName": "openssl", "version": "3.0.2", "description": "Secure Sockets Layer toolkit"}
+]

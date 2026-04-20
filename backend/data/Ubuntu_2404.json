@@ -1,0 +1,17 @@
+[
+  {"packageName": "python3", "version": "3.12.3", "description": "interactive high-level object-oriented language"},
+  {"packageName": "python3-pip", "version": "24.0", "description": "Python package installer"},
+  {"packageName": "nodejs", "version": "18.19.1", "description": "evented I/O for V8 javascript"},
+  {"packageName": "nginx", "version": "1.24.0", "description": "small, powerful, scalable web/proxy server"},
+  {"packageName": "curl", "version": "8.5.0", "description": "command line tool for transferring data with URL syntax"},
+  {"packageName": "git", "version": "2.43.0", "description": "fast, scalable, distributed revision control system"},
+  {"packageName": "vim", "version": "2:9.1.0016", "description": "Vi IMproved - enhanced vi editor"},
+  {"packageName": "docker.io", "version": "24.0.5", "description": "Linux container runtime"},
+  {"packageName": "postgresql", "version": "16+257", "description": "object-relational SQL database"},
+  {"packageName": "mysql-server", "version": "8.0.36", "description": "MySQL database server"},
+  {"packageName": "openjdk-21-jdk", "version": "21.0.3", "description": "OpenJDK 21 Development Kit"},
+  {"packageName": "golang-go", "version": "1.22.2", "description": "Go programming language compiler"},
+  {"packageName": "rustc", "version": "1.75.0", "description": "Rust systems programming language"},
+  {"packageName": "openssl", "version": "3.0.13", "description": "Secure Sockets Layer toolkit"},
+  {"packageName": "wget", "version": "1.21.4", "description": "retrieves files from the web"}
+]

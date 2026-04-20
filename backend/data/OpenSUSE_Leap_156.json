@@ -1,0 +1,16 @@
+[
+  {"packageName": "python3", "version": "3.11.8", "description": "Python 3 Interpreter"},
+  {"packageName": "python3-pip", "version": "22.3.1", "description": "Python package installer"},
+  {"packageName": "nodejs18", "version": "18.20.1", "description": "Evented I/O for V8 JavaScript"},
+  {"packageName": "nginx", "version": "1.21.5", "description": "A HTTP server and reverse proxy server"},
+  {"packageName": "curl", "version": "8.0.1", "description": "A Tool for Transferring Data from URLs"},
+  {"packageName": "git", "version": "2.42.0", "description": "Fast, scalable, distributed revision control system"},
+  {"packageName": "vim", "version": "9.0.1191", "description": "Vi IMproved"},
+  {"packageName": "podman", "version": "4.8.3", "description": "A tool for managing OCI containers and pods"},
+  {"packageName": "postgresql15-server", "version": "15.6", "description": "PostgreSQL server"},
+  {"packageName": "mariadb", "version": "10.11.7", "description": "Multithreaded SQL database server"},
+  {"packageName": "java-17-openjdk", "version": "17.0.10", "description": "OpenJDK 17 Runtime"},
+  {"packageName": "go1.21", "version": "1.21.9", "description": "Go programming language compiler"},
+  {"packageName": "libopenssl3", "version": "3.1.4", "description": "Secure Sockets Layer toolkit"},
+  {"packageName": "wget", "version": "1.21.4", "description": "A tool for retrieving files from the web"}
+]

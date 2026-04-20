@@ -1,0 +1,17 @@
+[
+  {"packageName": "python3", "version": "3.12.3", "description": "Python 3 Interpreter"},
+  {"packageName": "python3-pip", "version": "24.0", "description": "Python package installer"},
+  {"packageName": "nodejs20", "version": "20.12.2", "description": "Evented I/O for V8 JavaScript"},
+  {"packageName": "nginx", "version": "1.25.5", "description": "A HTTP server and reverse proxy server"},
+  {"packageName": "curl", "version": "8.7.1", "description": "A Tool for Transferring Data from URLs"},
+  {"packageName": "git", "version": "2.44.0", "description": "Fast, scalable, distributed revision control system"},
+  {"packageName": "vim", "version": "9.1.158", "description": "Vi IMproved"},
+  {"packageName": "podman", "version": "5.0.2", "description": "A tool for managing OCI containers and pods"},
+  {"packageName": "postgresql16-server", "version": "16.2", "description": "PostgreSQL server"},
+  {"packageName": "mariadb", "version": "11.3.2", "description": "Multithreaded SQL database server"},
+  {"packageName": "java-21-openjdk", "version": "21.0.3", "description": "OpenJDK 21 Runtime"},
+  {"packageName": "go1.22", "version": "1.22.2", "description": "Go programming language compiler"},
+  {"packageName": "rust", "version": "1.77.2", "description": "Rust programming language compiler"},
+  {"packageName": "libopenssl3", "version": "3.2.1", "description": "Secure Sockets Layer toolkit"},
+  {"packageName": "wget", "version": "1.21.4", "description": "A tool for retrieving files from the web"}
+]

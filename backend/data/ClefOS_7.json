@@ -1,0 +1,14 @@
+[
+  {"packageName": "python", "version": "2.7.5", "description": "An interpreted, interactive, object-oriented programming language"},
+  {"packageName": "python3", "version": "3.6.8", "description": "An interpreted, interactive, object-oriented programming language"},
+  {"packageName": "nodejs", "version": "6.17.1", "description": "JavaScript runtime"},
+  {"packageName": "nginx", "version": "1.12.2", "description": "A high performance web server"},
+  {"packageName": "curl", "version": "7.29.0", "description": "A utility for getting files from remote servers"},
+  {"packageName": "git", "version": "1.8.3.1", "description": "Fast Version Control System"},
+  {"packageName": "vim-enhanced", "version": "7.4.629", "description": "A version of the VIM editor"},
+  {"packageName": "postgresql-server", "version": "9.2.24", "description": "PostgreSQL server"},
+  {"packageName": "mariadb-server", "version": "5.5.68", "description": "MariaDB server"},
+  {"packageName": "java-1.8.0-openjdk", "version": "1.8.0.402", "description": "OpenJDK 8 Runtime"},
+  {"packageName": "openssl", "version": "1.0.2k", "description": "Utilities from the general purpose cryptography library"},
+  {"packageName": "wget", "version": "1.14", "description": "A utility for retrieving files"}
+]

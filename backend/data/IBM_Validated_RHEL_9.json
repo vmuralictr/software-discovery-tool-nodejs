@@ -1,0 +1,13 @@
+[
+  {"packageName": "python3", "version": "3.11.7", "description": "Interpreter of the Python programming language"},
+  {"packageName": "python3-pip", "version": "22.3.1", "description": "A tool for installing and managing Python packages"},
+  {"packageName": "nodejs", "version": "20.11.0", "description": "JavaScript runtime"},
+  {"packageName": "nginx", "version": "1.22.1", "description": "A high performance web server"},
+  {"packageName": "curl", "version": "7.76.1", "description": "A utility for getting files from remote servers"},
+  {"packageName": "git", "version": "2.43.5", "description": "Fast Version Control System"},
+  {"packageName": "podman", "version": "4.9.3", "description": "Manage Pods, Containers and Container Images"},
+  {"packageName": "postgresql-server", "version": "15.6", "description": "The programs needed to create and run a PostgreSQL server"},
+  {"packageName": "java-21-openjdk", "version": "21.0.2", "description": "OpenJDK Runtime Environment 21"},
+  {"packageName": "golang", "version": "1.21.8", "description": "The Go Programming Language"},
+  {"packageName": "openssl", "version": "3.0.7", "description": "Utilities from the general purpose cryptography library"}
+]
