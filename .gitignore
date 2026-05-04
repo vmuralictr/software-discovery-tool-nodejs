@@ -22,3 +22,6 @@ backend/database.sqlite-wal
 # Logs
 *.log
 npm-debug.log*
+
+# Claude Code worktrees
+.claude/
