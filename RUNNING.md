@@ -1,76 +1,47 @@
 # Running the Software Discovery Tool
 
-## Prerequisites
+## What you need
 
-### Without Docker
-- [Node.js](https://nodejs.org/) v18 or later
-- npm (bundled with Node.js)
+**Without Docker:** [Node.js](https://nodejs.org/) v18 or later (npm is included)
 
-### With Docker
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (includes Docker Compose)
+**With Docker:** [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ---
 
-## Running without Docker
+## Option 1 — Run locally (no Docker)
 
-### 1. Set up the backend
+You'll need two terminal windows — one for the backend, one for the frontend.
+
+### Terminal 1 — Backend
 
 ```bash
 cd backend
+cp .env.example .env
 npm install
-```
-
-Create a `.env` file inside the `backend/` directory:
-
-```
-PORT=5000
-DB_PATH=./database.sqlite
-```
-
-Build the SQLite database from the package data files (run once):
-
-```bash
 npm run build-db
-```
-
-Start the backend server:
-
-```bash
 npm start
 ```
+
+> `build-db` only needs to run once. After that, just use `npm start`.
 
 The API will be available at `http://localhost:5000`.
 
----
-
-### 2. Set up the frontend
-
-Open a new terminal window.
+### Terminal 2 — Frontend
 
 ```bash
 cd frontend
+cp .env.example .env
 npm install
-```
-
-Create a `.env` file inside the `frontend/` directory:
-
-```
-REACT_APP_API_URL=http://localhost:5000/api
-```
-
-Start the frontend dev server:
-
-```bash
 npm start
 ```
 
-The app will open at `http://localhost:3000`.
+The app will open automatically at `http://localhost:3000`.
 
 ---
 
-## Running with Docker
+## Option 2 — Run with Docker
 
-From the root of the project (where `docker-compose.yml` lives):
+From the project root (where `docker-compose.yml` lives):
 
 ```bash
 docker compose up --build
@@ -78,15 +49,15 @@ docker compose up --build
 
 The app will be available at `http://localhost`.
 
-> The first build takes a few minutes — it installs dependencies, compiles the native SQLite module, builds the React app, and populates the database.
+> The first build takes a few minutes — it installs dependencies, compiles SQLite, builds the React app, and populates the database. Subsequent builds are faster.
 
-To stop the containers:
+To stop:
 
 ```bash
 docker compose down
 ```
 
-To rebuild after making code changes:
+To rebuild after code changes:
 
 ```bash
 docker compose up --build
@@ -94,10 +65,10 @@ docker compose up --build
 
 ---
 
-## Summary
+## Quick reference
 
-| | URL | Command |
+| | URL | How to start |
 |---|---|---|
-| Frontend (no Docker) | http://localhost:3000 | `npm start` in `frontend/` |
-| Backend (no Docker) | http://localhost:5000 | `npm start` in `backend/` |
+| Frontend (local) | http://localhost:3000 | `npm start` in `frontend/` |
+| Backend (local) | http://localhost:5000 | `npm start` in `backend/` |
 | Full app (Docker) | http://localhost | `docker compose up --build` |
