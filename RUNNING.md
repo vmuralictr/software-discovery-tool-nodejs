@@ -23,7 +23,7 @@ npm install
 Create a `.env` file inside the `backend/` directory:
 
 ```
-PORT=5000
+PORT=8000
 DB_PATH=./database.sqlite
 ```
 
@@ -55,7 +55,7 @@ npm install
 Create a `.env` file inside the `frontend/` directory:
 
 ```
-REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=http://localhost:8000/api
 ```
 
 Start the frontend dev server:
